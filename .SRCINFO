@@ -1,0 +1,24 @@
+pkgbase = eturnal-git
+	pkgdesc = eturnal STUN/TURN Server
+	pkgver = 1.4.5.10.g07e2d05
+	pkgrel = 1
+	url = https://github.com/processone/eturnal
+	arch = x86_64
+	license = APACHE
+	makedepends = git
+	makedepends = rebar3
+	makedepends = tar
+	depends = erlang-nox
+	depends = libyaml
+	depends = bash
+	provides = eturnal=1.4.5.10.g07e2d05
+	conflicts = eturnal
+	backup = etc/eturnal.yml
+	source = git+https://github.com/processone/eturnal.git
+	source = sysuser.conf
+	source = tmpfile.conf
+	sha256sums = SKIP
+	sha256sums = 4eb71efbd999d9f890238a22dd3b9730a68f2fc8239adb2275e7b4331117e40a
+	sha256sums = cb5463d7a4723b53f6be1d1416f2364aa7bfc12128eb004b0a9d76bb2b415900
+
+pkgname = eturnal-git
